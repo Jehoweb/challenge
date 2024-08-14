@@ -1,0 +1,240 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.plano {
+    width: 1440px;  
+    height: 1024px;
+    top: 622px;
+    left: -720px;
+    gap: 0px;
+    opacity: 0px;
+    background: #F3F5FC;
+}
+
+.alura__latam{
+    width: 120px;   
+    height: 48px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+main{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+.region__uno {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.texto__entrada {    
+    width: 680px;   
+    height: 288px;
+    top: 168px;
+    left: 240px;
+    gap: 0px;
+    opacity: 0px;
+    
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    
+    color: #0A3871;
+    border: none;
+    text-transform: lowercase;
+}
+::placeholder { color: #0a3871; }
+
+.texto__entrada:focus{
+    outline: none;
+}
+
+
+ .texto__salida {
+    width: 336px;  /*  width: 336px;   */
+    height: 381px;  /* 781px   */
+    top: 72px;
+    left: 1032px;
+    gap: 0px;
+    opacity: 0px;
+
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+
+    color: #495057;
+    background: white;
+    background-image: url("/img/inspector.png");
+    background-size: 84%;
+    background-position: 0em;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+    border: none;
+    
+ }
+
+ .texto__salida:focus {
+    outline: none;
+ }
+
+.requisito{
+    display: flex;
+    gap: 8px;
+}
+
+.requisito h3{
+width: 210px;
+height: 18px;
+gap: 0px;
+opacity: 0.8px;
+font-family: Inter;
+font-size: 0.75rem;
+font-weight: 400;
+line-height: 18px;
+text-align: left;
+}
+
+.requisito img{
+width: 16px;
+height: 16px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.botones {
+    display: flex;
+    margin-top: 18px;    
+   
+}
+
+
+.boton__convertir {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white; 
+    cursor: pointer;
+    height: 67px;
+    width: 328px;  
+
+}
+
+
+.boton__restaurar {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px; 
+}
+
+
+.boton__trasladar {
+    border: 1px solid #0A3871; 
+    border-radius: 24px;
+    color: #0A3871; 
+    cursor: pointer;    
+    height: 67px;
+
+    width: 84%;  /*  width: 336px;   */
+    background: #FFFFFF;
+    visibility: hidden;
+    /*   position: fixed; */
+}
+
+
+.transicion {
+    width: 400px;
+    height: 544px;  /*   944px */
+    
+    top: 40px;
+    left: 1000px;
+    gap: 20px;
+    border-radius: 32px;
+    
+    opacity: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px #00000014;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+    position: fixed;
+ }
+
+
+.infoayuda {
+width: 84%;   /*  width: Fixed (336px)px;   */
+height: Hug (122px)px;
+top: 619px;
+left: 1032px;
+gap: 16px;
+opacity: 0px;
+
+}
+
+.validador {
+width: 84%;  /*  width: 336px;   */
+height: 58px;
+gap: 0px;
+opacity: 0px;
+font-family: Inter;
+font-size: 1.5rem;
+font-weight: 700;
+line-height: 28.8px;
+text-align: center;
+
+background: #FFFFFF;
+color: #343A40;
+
+}
+
+.peticion{
+    width: 84%;  /*  width: 336px;   */
+    height: 48px;
+    gap: 0px;
+    opacity: 0px;
+
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    
+    background: #FFFFFF;
+    color: #343A40;
+
+}
+
+
+.footer {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    color: #495057;
+    padding-top: 10px;
+}
+
+@media (max-width: 700px){
+    .encabezado{
+        padding: 10%;
+    }
+
+}
