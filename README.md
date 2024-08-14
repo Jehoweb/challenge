@@ -1,4 +1,4 @@
-# Challenge ¡Hola, bienvenido a mi challenge Alura-Latam!
+# Challenge ¡Hola, bienvenido a mi Encriptador de texto Alura-Latam!
 
 
 ## Herramientas utilizadas:
