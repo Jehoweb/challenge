@@ -1,3 +1,10 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
 :root {
     --color-primario: #000000;
     --color-secundario: #F6F6F6;
@@ -9,16 +16,14 @@
 }
 
 
-* {
-    margin: 0;
-    padding: 0;
-}
+
 
 .plano {
+	background-image: url("../img/bgzoomone.png");
+    background-repeat: no-repeat;
+	background-size: cover;
     width: 53.75rem;  
     height: 64rem;
-    background-image: url("/img/bgzoomone.png");
-    background-repeat: no-repeat;
     margin: 0 auto;
 }
 
@@ -133,7 +138,7 @@ main{
 
     color: #495057;
     background: white;
-    background-image: url("/img/inspector.png");
+    background-image: url("../img/inspector.png");
     background-size: 84%;
     background-position: 0em;
     background-repeat: no-repeat;
@@ -191,7 +196,7 @@ opacity: 0px;
     font-weight: bold;
     font-size: 1.25rem;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    background-image:url("/img/huellita.png");
+    background-image:url("../img/huellita.png");
     background-repeat:no-repeat;
     background-size: 3.125rem 3.125rem;
     background-position:center;
@@ -199,7 +204,7 @@ opacity: 0px;
 }
 
 .boton__convertir:hover {
-    background-image: url("/img/huella.bmp");
+    background-image: url("../img/huella.bmp");
     background-color:#00a2e8;
     color:#ffffff ;
     
@@ -217,7 +222,7 @@ opacity: 0px;
     font-weight: bold;
     font-size: 1.25rem;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    background-image:url("/img/noprotegido.bmp");
+    background-image:url("../img/noprotegido.bmp");
     background-repeat:no-repeat;
     background-size: 3.125rem 3.125rem;
     background-position:center;
@@ -226,7 +231,7 @@ opacity: 0px;
 }
 
 .boton__restaurar:hover {
-    background-image: url("/img/sinproteccion.bmp");
+    background-image: url("../img/sinproteccion.bmp");
     background-color:  #0780f9;
     color: #7afdf7;    
 }
@@ -243,7 +248,7 @@ opacity: 0px;
     font-weight: bold;
     font-size: 1.25rem;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    background-image:url("/img/copiarbufer.bmp");
+    background-image:url("../img/copiarbufer.bmp");
     background-repeat:no-repeat;
     background-size: 3.125rem 3.125rem;
     background-position:center;
@@ -254,7 +259,7 @@ opacity: 0px;
 }
 
 .boton__trasladar:hover {
-    background-image: url("/img/copiar.bmp");
+    background-image: url("../img/copiar.bmp");
     background-color:#7092be;
     color:#ffffff;
 }
