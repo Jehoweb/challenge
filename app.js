@@ -68,7 +68,7 @@ function proyectarResultados(texto){
 function noHayInformacion(){
     pregunta.style.visibility = "hidden";
     botonCopiar.style.visibility = "hidden";
-    textAreaSalida.style.backgroundImage = "url(/img/inspector.png)";
+    textAreaSalida.style.backgroundImage = "url(img/inspector.png)";
     mensajeVacio.style.visibility = "visible";
     textAreaSalida.value="";
 }
